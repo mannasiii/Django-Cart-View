@@ -1,0 +1,33 @@
+1.project -- manasi
+2.app -- cart
+{app }
+3.setting.py -- app name insert in installed app
+4.design model -- design model(table)
+5.Register model into admin.py
+6. create templates folder 
+      -- html files (min 2)
+7.views.py 
+    a.import model
+    b.import list view, detail view
+    c.ex: from .model import list view, detail view
+    d. create class view
+8. create urls.py file into app
+    a.import view
+    b. create urls patterns
+    c. path
+
+9.migrations command
+    a.python manage.py makemigrations
+    b.python manage.py migrate  
+10. migrate done
+11. createsupar user 
+    a.username
+    b.password
+{Project }
+12. manage.py runserver
+13. open
+14. login user
+15. open
+
+
+
